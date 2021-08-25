@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+	font-family: 'Cabin', sans-serif;
+	box-sizing: border-box;
+}
+.nav-item {
+	color: white !important;
+}
+#banner{
+	background-image: url(https://via.placeholder.com/150);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+.home-relative{
+	position: relative;
+}
+.home-content{
+	position: absolute;
+	top: 90px;
+}
+.text-justify{
+	text-align: justify;
+}
+.login-form{
+	min-height: 80vh;
+}
+.text-dec{
+	text-decoration: none;
+}
+.accordion-button{
+	background: white !important;
+	color: black !important;
+	font-style: bold !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.accordion-button:focus{
+	border:none !important;
+	box-shadow: none !important;
+}
+.accordion-item{
+	margin: 5px 0;
+}
+.acordion-after-icon::after{
+	display: none !important;
+}
