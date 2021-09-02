@@ -15,7 +15,7 @@
   <body>
     <!-- nav bar -->
         <!-- navbar from bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark opacity-70 ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
       <div class="container">
         <a class="navbar-brand text-uppercase text-white font-weight-bolder" href="index.html">Online Interview</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,40 +34,41 @@
             </li>
             <li class="nav-item ">
               <a class="nav-link text-white active" href="#">css</a>
-            </li>           
+            </li> 
+            <li class="nav-item ">
+              <a class="nav-link text-white active" href="contact.html">contact us</a>
+            </li>          
           </ul>
           <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link bg-secondary text-dark me-1 " aria-current="page" href="login.html">Login</a>
+              <a class="nav-link bg-success text-dark me-1 active" aria-current="page" href="login.html">Login</a>
             </li>            
             <li class="nav-item">
-              <a class="nav-link bg-secondary text-dark disabled" href="registration.html" tabindex="-1" aria-disabled="true">Registration</a>
+              <a class="nav-link bg-success text-dark " href="registration.html" tabindex="-1" >Registration</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <!-- nav end -->
     <!-- register section start -->
     <section class="container">
      <div class="row">
-      <div class="login-form p-5 col-12 d-flex flex-column align-items-center justify-content-center">
+      <div class="login-form p-5 col-12 d-flex flex-column  align-items-center justify-content-center">
         <h2 class="text-uppercase text-bolder">register now</h2>
-        <form class="col-lg-6 col-12">
-          <div class="form-group mb-2">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="abc@xyz.com">
-          </div>
+        <form class="col-lg-6 col-12 shadow p-3">
+          
           <div class="form-group mb-2">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="abc@xyz.com">
           </div>
           <div class="form-group mb-2">
-            <label for="exampleInputEmail1">User Id</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="userIdHelp" placeholder="acb%xyz&123">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
           <div class="form-group mb-2">
-            <label for="exampleInputPassword1">Password</label>
+            <label for="exampleInputPassword1">Confirm Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
           <button type="submit" class="btn btn-primary mt-2">Register</button>
@@ -80,12 +81,16 @@
     <footer id="footer" class="bg-dark">
       <div class="container-fluid">
         <div class="row text-light  pt-3">
-          <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center ">
-            <a class="text-dec" href="index.html"><h2 class="text-uppercase text-light display-6 p-2 text-center mx-auto ">Online interveiw</h2></a>
+          <div class="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center ">
+            <a class="text-dec" href="index.html"><h2 class="text-uppercase text-light display-6 p-2 pb-0 text-center mx-auto ">Online interveiw</h2></a>
+            <p>Lorem, ipsum dolor sit amet.</p>
           </div>
           <div class="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-center">
-            <h2 class="text-uppercase mb-0 text-light">contact us</h2>
-            <p class="p-2">Mobile: 01710001110 <br> Email:abc@xyz.com</p>
+            <h2 class="text-uppercase mb-0 text-light">quick links</h2>
+            <p class="p-0 m-0"><a class="text-dec text-white  text-capitalize" href="#">contact us</a></p>
+            <p class="p-0 m-0"><a class="text-dec text-white  text-capitalize" href="#">privacy & policy</a></p>
+            <p class="p-0 m-0"><a class="text-dec text-white  text-capitalize" href="#">terms & conditions</a></p>
+            <p class="p-0 m-0"><a class="text-dec text-white  text-capitalize" href="#">our office</a></p>
           </div><div class="col-12 col-lg-4 d-flex flex-column align-items-center ">
             <h2 class="text-uppercase text-light ms-4">follow us</h2>
             <ul class=" d-flex text-dark ">

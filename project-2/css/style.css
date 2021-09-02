@@ -7,17 +7,15 @@
 	color: white !important;
 }
 #banner{
-	background-image: url(https://via.placeholder.com/150);
+	background-image: url(https://via.placeholder.com/1200x400);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 70vh;
+	background-position: center;
+	
 }
-.home-relative{
-	position: relative;
-}
+
 .home-content{
-	position: absolute;
-	top: 90px;
+	margin: 100px 0 !important;
 }
 .text-justify{
 	text-align: justify;
